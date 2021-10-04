@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - jupyterlab
+  - numpy
+  - pandas
+  - geopandas
+  - fiona
+  - shapely
+  - matplotlib
+  - seaborn
+  - contextily
+pip:
+  - glob
