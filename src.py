@@ -10,9 +10,7 @@ import contextily as ctx
 import matplotlib.pyplot as plt
 import seaborn as sns
 import geopandas as gpd
-from shapely.geometry import Point
-#from sqlalchemy.engine import create_engine
-from shapely.geometry import LineString, MultiPoint, Polygon
+from shapely.geometry import Point, LineString, MultiPoint, Polygon
 
 start_year,end_year = 2014,2018 # todo: read from user input
 
