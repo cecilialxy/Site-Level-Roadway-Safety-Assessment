@@ -364,5 +364,5 @@ def plot_ped_bicy_per_direction(LocationName,Total_Volume_Class_Breakdown,leg,di
     ax.patch.set_facecolor('white')
     ax.patch.set_alpha(0.1)
     plt.grid(axis='y')
-    plt.title('Pedestrians and Bicyclists Volume at the \n'+'on '+LocationName+leg+'Leg ', y=1.05,fontsize=15)
+    plt.title('Pedestrians and Bicyclists Volume at the \n'+LocationName+'-'+leg+' Leg ', y=1.05,fontsize=15)
     plt.savefig('./analysis_results/Pedestrians and Bicyclists Volume at the'+LocationName+leg+'Leg .png', bbox_inches='tight', dpi=600)
